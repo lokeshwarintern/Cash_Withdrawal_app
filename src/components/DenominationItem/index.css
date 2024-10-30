@@ -1,0 +1,14 @@
+.btn-ele {
+  width: 200px;
+  background-color: #585076;
+  color: #d4d2db;
+  font-family: Roboto;
+  border-width: 1px;
+  border-color: #d4d2db;
+  padding: 6px;
+  border-radius: 8px;
+  margin: 8px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 0px;
+}

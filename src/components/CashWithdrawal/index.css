@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.withdraw-container {
+  background-color: #150b3e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.name-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.first-letter {
+  background-color: #c7d2fe;
+  border-style: solid;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+
+  color: #7c3aed;
+  border-width: 0px;
+}
+
+.name-ele {
+  color: #d4d2db;
+  font-family: Roboto;
+  font-weight: 400;
+  margin-left: 9px;
+  font-size: 20px;
+}
+
+.balance-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.your-blnc-text {
+  color: #585076;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.balance-amount {
+  color: #d4d2db;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.span-ele {
+  color: #585076;
+  font-size: 12px;
+  font-family: Roboto;
+}
+
+.withdraw-text {
+  color: #d4d2db;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.choose-sum-text {
+  color: #585076;
+  font-family: Roboto;
+}
+
+.ul-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}
